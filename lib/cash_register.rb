@@ -8,14 +8,8 @@ class CashRegister
     @discount = discount #optionally takes an employee discount on intialization
   end
 
-  def add_item(title, amount, quantity)
-    self.total += amount * quantity
-    quantity.times do
-      items << title
-    end
-    self.last_transaction = amount * quantity
+  def add_item(title, price)
   end
-
 
 
 
