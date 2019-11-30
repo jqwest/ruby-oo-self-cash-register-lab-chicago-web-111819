@@ -1,7 +1,7 @@
 
 class CashRegister
 
-  attr_accessor :discount
+  attr_accessor :discount, :total
 
   def initialize(discount = 0)
     @total = 0 #sets an instance variable @total on initialization to zero
