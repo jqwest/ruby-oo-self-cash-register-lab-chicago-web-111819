@@ -8,7 +8,9 @@ class CashRegister
     @discount = discount #optionally takes an employee discount on intialization
   end
 
-
+  def add_item(title, price, quantity)
+    
+  end
 
 
 
