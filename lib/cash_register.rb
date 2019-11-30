@@ -8,9 +8,7 @@ class CashRegister
     @discount = discount #optionally takes an employee discount on intialization
   end
 
-  def total
-    @total
-  end
+
 
 
 
